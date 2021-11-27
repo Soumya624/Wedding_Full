@@ -2011,17 +2011,15 @@ a:focus {
   top: 0;
   z-index: 50;
 }
-@media only screen and (max-width: 991px) {
-  .static-hero {
-    background: url("../images/slider/1'.heic") center center/cover no-repeat
-      local;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 50;
-  }
+.static-hero-mobile {
+  background: url("../images/slider/1'.heic") center center/cover no-repeat
+    local;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 50;
 }
 
 .static-hero:before {
